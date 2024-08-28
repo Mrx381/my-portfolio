@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nginx:
+    image: nginx:1.27.0
+    ports:
+      - 8089:80
+    volumes:
+      - ./basic-portfolio/:/usr/share/nginx/html

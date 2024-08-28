@@ -1,0 +1,285 @@
+ <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <!-- <div id="carousel" class="carousel">
+          <div
+            class="slide"
+            style="background-image: url('img/projects/golf project.png')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('img/projects/localSeedPro.jpeg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('img/projects/portfolio.svg')"
+          ></div>
+          <!-- Add more slides as needed -- >
+            <i
+              id="prevBtn"
+              class="fa-regular fa-circle-left fa-xl"
+              style="z-index: 10; position: relative; top: 50%; right: -8px"
+            ></i>
+            <i
+              id="nextBtn"
+              class="fa-regular fa-circle-right fa-xl"
+              style="z-index: 10; position: relative; top: 50%; left: -8px; float: right;"
+            ></i>
+        </div> -->
+        <div class="subtitle">
+          <svg
+            fill="#000000"
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M11.303 8l11.394 7.997L11.303 24z" />
+          </svg>
+          Freelance Projects
+        </div>
+        <article class="reverse">
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>Golf Event Manager</h3>
+            <p class="blackbox">
+              Developed a web application catering to golf enthusiasts, enabling
+              event creation and discovery with integrated
+              <b> Google Maps API </b> for event location visualization.
+              Implemented a user-friendly interface for real-time event
+              tracking, score submission, and progress monitoring through
+              interactive charts.
+            </p>
+
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>NextJs</li>
+              <li>Ant Design</li>
+              <li>Tailwinds</li>
+              <li>React Query</li>
+              <li>Google Maps</li>
+            </ul>
+          </div>
+          <!-- <img src="img/projects/golf project.png" alt="golf project" /> -->
+          <div class="carousel-wrapper">
+            <div id="carousel" class="golf-project carousel">
+              <div
+                class="slide"
+                style="background-image: url('img/projects/golf project.png')"
+              ></div>
+              <div
+                class="slide"
+                style="background-image: url('img/projects/event\ page.png')"
+              ></div>
+              <div
+                class="slide"
+                style="
+                  background-image: url('img/projects/calendar\ event.png');
+                "
+              ></div>
+            </div>
+            <!-- Add more slides as needed -->
+            <i
+              id="prevBtn"
+              class="fa-regular fa-circle-left fa-xl"
+              style="
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                cursor: pointer;
+              "
+            ></i>
+            <i
+              id="nextBtn"
+              class="fa-regular fa-circle-right fa-xl"
+              style="
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                float: right;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
+        </article>
+        <article>
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>LocalSeedPro</h3>
+            <p class="blackbox">
+              Developed the frontend for an AI application predicting optimal
+              seeds for planting based on location and climate data. Crafted a
+              responsive UI for data visualization, enabling user-friendly
+              access to predictive analytics.
+            </p>
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>React</li>
+              <li>Material-ui</li>
+              <li>Formik</li>
+            </ul>
+          </div>
+          <!-- <img src="img/projects/localSeedPro.jpeg" alt="localSeedPro" /> -->
+          <div class="carousel-wrapper">
+            <div id="carousel" class="localSeedPro carousel">
+              <div
+                class="slide"
+                style="background-image: url('img/projects/localSeedPro.jpeg')"
+              ></div>
+              <div
+                class="slide"
+                style="
+                  background-image: url('img/projects/seed\ prediction\ card.png');
+                "
+              ></div>
+            </div>
+            <!-- Add more slides as needed -->
+            <i
+              id="project2PrevBtn"
+              class="fa-regular fa-circle-left fa-xl"
+              style="
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                cursor: pointer;
+              "
+            ></i>
+            <i
+              id="project2NextBtn"
+              class="fa-regular fa-circle-right fa-xl"
+              style="
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                float: right;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>Transactions</h3>
+            <p class="blackbox">
+              Developed a transactions project allowing users to upload CSV
+              files for easy data display in tables and charts. The reports
+              provided valuable analytics, helping users make informed
+              decisions. I worked as frontend developer in this project.
+            </p>
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Styled Components</li>
+            </ul>
+          </div>
+          <!-- <img src="img/projects/transaction project.svg" alt="transactions" /> -->
+          <img src="img/trans.png" alt="transactions" />
+        </article>
+        <div class="subtitle">
+          <svg
+            fill="#000000"
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M11.303 8l11.394 7.997L11.303 24z" />
+          </svg>
+          Personal Projects
+        </div>
+        <article>
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>Web Portfolio</h3>
+            <p class="blackbox">
+              A single page web application. It is created to showcase my
+              skills, and knowledge about web development basis. You can view
+              the source code
+              <a
+                href="https://github.com/imFaizanAhmed/imfaizanahmed.github.io"
+                target="_blank"
+                class="alias"
+                >here</a
+              >.
+            </p>
+
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Aos.js</li>
+            </ul>
+          </div>
+          <img src="img/projects/portfolio.svg" alt="Portfolio" />
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>Media Pegham</h3>
+            <p class="blackbox">
+              MediaPegham is a website that focuses on leveraging AI to enhance
+              social media posts. Users can input a brief description or key
+              details about their post, choose their preferred social media
+              platform, and select a specific vibe for their content. The site
+              then generates a post based on these inputs. It's designed to
+              simplify and enhance the process of creating engaging content for
+              various social media platforms by using AI technology.<br />
+              View source code
+              <a
+                href="https://github.com/imFaizanAhmed/media-pegham"
+                target="_blank"
+                class="alias"
+                >here</a
+              >. View project
+              <a
+                href="https://media-pegham.vercel.app/"
+                target="_blank"
+                class="alias"
+                >here</a
+              >.
+            </p>
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>NextJs</li>
+              <li>Typescript</li>
+              <li>ShadcnUI</li>
+              <li>LangChain</li>
+              <li>Openai Edge</li>
+            </ul>
+          </div>
+          <img src="img/projects/media pegham.png" alt="No image found" />
+        </article>
+        <article>
+          <div class="text">
+            <!-- <h4>Latest Project</h4> -->
+            <h3>Find Trends</h3>
+            <p class="blackbox">
+              A single page real-time customers feedback application. It gets
+              tweets about the product using TweepyAPI and applies sentiment
+              analysis to predict the people's views. It stores the tweets and
+              their sentiments on database for future use. <br />
+              View this project
+              <a
+                href="https://github.com/imFaizanAhmed/find-trend"
+                target="_blank"
+                class="alias"
+                >here</a
+              >.
+            </p>
+            <h4>Technologies used include</h4>
+            <ul>
+              <li>Django</li>
+              <li>Bootstrap</li>
+              <li>TweepyAPI</li>
+              <li>Sqlite</li>
+            </ul>
+          </div>
+          <img src="img/projects/no image.svg" alt="No image found" />
+        </article>
+      </section>
