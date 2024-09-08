@@ -1,35 +1,120 @@
 const cloudsSkills = document.getElementById("clouds-skills");
 const serversSkills = document.getElementById("servers-skills");
 const toolsSkills = document.getElementById("tools-skills");
-const apisSkills = document.getElementById("apis-skills");
+const iacSkills = document.getElementById("iac-skills");
+const cicdSkills = document.getElementById("cicd-skills");
+const monitoringSkills = document.getElementById("monitoring-skills");
+const containerizationSkills = document.getElementById("containerization-skills");
+const dbSkills = document.getElementById("db-skills");
+const wsSkills = document.getElementById("ws-skills");
 
 const clouds = document.getElementById("clouds");
 const servers = document.getElementById("servers");
 const tools = document.getElementById("tools");
-const apis = document.getElementById("apis");
+const iac = document.getElementById("iac");
+const cicd = document.getElementById("cicd");
+const monitoring = document.getElementById("monitoring");
+const containerization = document.getElementById("containerization");
+const db = document.getElementById("db");
+const ws = document.getElementById("ws");
 
 cloudsSkills.classList.add("skills");
 clouds.addEventListener("click", function () {
   cloudsSkills.classList.add("skills");
   serversSkills.classList.remove("skills");
   toolsSkills.classList.remove("skills");
-  apisSkills.classList.remove("skills");
+  iacSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills"); 
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
 });
 servers.addEventListener("click", function () {
   serversSkills.classList.add("skills");
   cloudsSkills.classList.remove("skills");
   toolsSkills.classList.remove("skills");
-  apisSkills.classList.remove("skills");
+  iacSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
 });
 tools.addEventListener("click", function () {
   toolsSkills.classList.add("skills");
   cloudsSkills.classList.remove("skills");
   serversSkills.classList.remove("skills");
-  apisSkills.classList.remove("skills");
+  iacSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
 });
-apis.addEventListener("click", function () {
-  apisSkills.classList.add("skills");
+iac.addEventListener("click", function () {
+  iacSkills.classList.add("skills");
   cloudsSkills.classList.remove("skills");
   serversSkills.classList.remove("skills");
   toolsSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
+});
+cicd.addEventListener("click", function () {
+  iacSkills.classList.remove("skills");
+  cloudsSkills.classList.remove("skills");
+  serversSkills.classList.remove("skills");
+  toolsSkills.classList.remove("skills");
+  cicdSkills.classList.add("skills");
+  monitoringSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
+});
+monitoring.addEventListener("click", function () {
+  iacSkills.classList.remove("skills");
+  cloudsSkills.classList.remove("skills");
+  serversSkills.classList.remove("skills");
+  toolsSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.add("skills");
+  containerizationSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
+});
+containerization.addEventListener("click", function () {
+  containerizationSkills.classList.add("skills");
+  iacSkills.classList.remove("skills");
+  cloudsSkills.classList.remove("skills");
+  serversSkills.classList.remove("skills");
+  toolsSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  dbSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
+});
+db.addEventListener("click", function () {
+  dbSkills.classList.add("skills");
+  containerizationSkills.classList.remove("skills");
+  iacSkills.classList.remove("skills");
+  cloudsSkills.classList.remove("skills");
+  serversSkills.classList.remove("skills");
+  toolsSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  wsSkills.classList.remove("skills");
+});
+ws.addEventListener("click", function () {
+  dbSkills.classList.remove("skills");
+  containerizationSkills.classList.remove("skills");
+  iacSkills.classList.remove("skills");
+  cloudsSkills.classList.remove("skills");
+  serversSkills.classList.remove("skills");
+  toolsSkills.classList.remove("skills");
+  cicdSkills.classList.remove("skills");
+  monitoringSkills.classList.remove("skills");
+  wsSkills.classList.add("skills");
 });
